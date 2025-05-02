@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<title>Kiểm Kê Thiết Bị - ITShop.VN</title>
+</head>
+
+<body>
+	<div class="container">
+		<div id="navbar"></div>
+		
+		<div class="card mt-3">
+			<div class="card-header">Duyệt Đơn</div>
+			<div class="card-body">
+				<p class="card-text">Hướng dẫn sử dụng màn hình <strong>Duyệt Đơn</strong>.</p>
+				<img src="Image/duyetdon.jpg" class="img-fluid mx-auto d-block" />
+				<hr />
+				<h4 class="mt-3"><a name="form">Các Bước Thao Tác Duyệt Đơn</a></h4>
+				<p><strong>Bước 1:</strong> Đôi khi ấn vào chúng ta chỉ đọc được các thông tin cơ bản, thay vào đó chúng ta nên ấn nút xem chi tiết để quyết định có nên duyệt đơn đặt phòng của giáo viên không.
+				<p><strong>Bước 2:</strong> Khi mà người dùng đã xác định được các thông tin hợp lệ và họ sẽ chọn phòng để đăng ký.
+				<p><strong>Bước 3:</strong> Hoàn thành các thủ tục.
+				<p><strong>Bước 4:</strong> Hệ thống sẽ tự động kiểm tra lại các thông tin và sẽ gửi thông báo đặt phòng thành công cho giáo viên đó kèm theo thời gian  , địa điểm.
+				<hr />
+				<h4 class="mt-3"><a name="xemchitiet">Xem Chi Tiết</a></h4>
+				<p><strong>Bước 1:</strong> Tìm hiểu các thiết bị có thể đăng ký trước.
+				<p><strong>Bước 2:</strong> Hiển thị form chi tiết đầy đủ các thông tin mà người dùng đã nhập từ form đặt phòng.
+				<hr />
+				<h4 class="mt-3"><a name="duyetdon">Duyệt Đơn</a></h4>
+				<p><strong>Bước 1:</strong> Sau khi kiểm tra đầy đủ các thông tin hợp lệ.
+				<p><strong>Bước 2:</strong> Hệ thống sẽ tự động kiểm tra lại các thông tin và sẽ gửi thông báo đặt phòng thành công cho giáo viên đó kèm theo thời gian  , địa điểm.
+				<hr />
+			</div>
+		</div>
+		
+		<div id="footer"></div>
+	</div>
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script>
+		$(document).ready(() => {
+			$('#navbar').load('navbar.html');
+			$('#footer').load('footer.html');
+		});
+	</script>
+</body>
+
+</html>
